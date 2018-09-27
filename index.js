@@ -16,3 +16,12 @@ function johnLennonFacts(facts){
   return newArr;
 }
 
+function iLoveTheBeatles(num){
+  let result = [];
+  do (result.push(num)){
+    num++;
+  } while {
+    num < 15;
+  }
+  return result;
+}
