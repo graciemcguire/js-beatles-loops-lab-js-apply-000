@@ -21,8 +21,8 @@ function iLoveTheBeatles(num){
   let count = 0;
   do {
     result.push(num);
-    count++;
+    num++;
   } while
-    (count < 15);
+    (result.length < 15);
   return result;
 }
